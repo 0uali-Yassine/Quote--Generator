@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <title>Fylo landing page with dark theme and features grid</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+    
+    @layer utilities {
+      html{
+      Font-size: 14px; 
+    }
+      .font-heading-Call-toaction-Header-navigation{
+        font-family: 'Raleway', sans-serif;
+      }
+      .font-body{
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+  </style>
+</head>
+<body class="bg-[url('/image/photo-1497704628914-8772bb97f450.jpg')] bg-no-repeat bg-cover">
+  
+  <h1 class="w-[300px] h-auto rounded-xl text-center bg-black text-white border-zinc-300 py-[10px] mx-auto my-[20px] max-[504px]:w-[60%]">javascript quote generator</h1>
+
+  <div class="big_div w-[500px] h-auto bg-slate-400 rounded-2xl m-auto opacity-75 max-[504px]:w-[80%] ">
+    <p class="Quote font-heading-Call-toaction-Header-navigation w-[80%] h-auto m-auto p-[10px] text-center text-[2.5rem]">“You only live once, but if you do it right, once is enough.”</p>
+    <h1 class="writer font-body text-red-500 text-[2rem] text-center w-[50%] h-[100px] m-auto max-[504px]:w-[80%]">-- Mae West</h1>
+    <button class="btn bg-black  w-[90px] hover:bg-slate-500 h-[40px] mx-[39%] mb-[30px] rounded-lg text-center text-white">New Quote</button>
+  </div>
+    
+  <script src="/index.js"></script>
+</body>
+</html>
